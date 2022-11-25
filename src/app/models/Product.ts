@@ -25,8 +25,8 @@ export const Product = model('Product', new Schema({
                 type: String,
                 required: true,
             },
-            icon:{
-                type: String,
+            amount:{
+                type: Number,
                 required: true,
             },
         }],
